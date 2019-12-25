@@ -86,6 +86,7 @@ const HomeStack = createStackNavigator({
 const AppContainer = createAppContainer(HomeStack)
 
 export default class App extends Component {
+
   render() {
     return <AppContainer />
   }

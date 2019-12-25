@@ -23,6 +23,14 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		2348090623B2D74600099991 /* LogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 234808D323B2D74600099991 /* LogCell.xib */; };
+		2348090723B2D74600099991 /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 234808D523B2D74600099991 /* NSDictionary+Log.m */; };
+		2348090823B2D74600099991 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 234808D823B2D74600099991 /* NSArray+Log.m */; };
+		2348090923B2D74600099991 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 234808DA23B2D74600099991 /* fishhook.c */; };
+		2348090A23B2D74600099991 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 234808DC23B2D74600099991 /* ViewController.m */; };
+		2348090B23B2D74600099991 /* LogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 234808DD23B2D74600099991 /* LogCell.m */; };
+		2348090E23B2D75300099991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2348090C23B2D75300099991 /* Main.storyboard */; };
+		2348091123B2D96100099991 /* YSLogModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2348091023B2D96100099991 /* YSLogModule.m */; };
 		2BB39D3994F74973ADCADF7D /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7AD992AB324BC980E4340B /* libRNGestureHandler.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -354,6 +362,20 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AwesomeProject/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeProject/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		234808D223B2D74600099991 /* LogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogCell.h; sourceTree = "<group>"; };
+		234808D323B2D74600099991 /* LogCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogCell.xib; sourceTree = "<group>"; };
+		234808D523B2D74600099991 /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
+		234808D623B2D74600099991 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		234808D723B2D74600099991 /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
+		234808D823B2D74600099991 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		234808DA23B2D74600099991 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		234808DB23B2D74600099991 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		234808DC23B2D74600099991 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		234808DD23B2D74600099991 /* LogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogCell.m; sourceTree = "<group>"; };
+		234808DE23B2D74600099991 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2348090D23B2D75300099991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AwesomeProject/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2348090F23B2D96100099991 /* YSLogModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YSLogModule.h; path = AwesomeProject/YSLogModule.h; sourceTree = "<group>"; };
+		2348091023B2D96100099991 /* YSLogModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YSLogModule.m; path = AwesomeProject/YSLogModule.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* AwesomeProject-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AwesomeProject-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* AwesomeProject-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AwesomeProject-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -508,12 +530,16 @@
 		13B07FAE1A68108700A75B9A /* AwesomeProject */ = {
 			isa = PBXGroup;
 			children = (
+				234808D123B2D74600099991 /* Log */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				2348090F23B2D96100099991 /* YSLogModule.h */,
+				2348091023B2D96100099991 /* YSLogModule.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				2348090C23B2D75300099991 /* Main.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = AwesomeProject;
@@ -540,6 +566,41 @@
 				236485A922FFCA8D003DEF0D /* libjsiexecutor-tvOS.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		234808D123B2D74600099991 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				234808D423B2D74600099991 /* Category */,
+				234808D923B2D74600099991 /* fishhook */,
+				234808D223B2D74600099991 /* LogCell.h */,
+				234808DD23B2D74600099991 /* LogCell.m */,
+				234808D323B2D74600099991 /* LogCell.xib */,
+				234808DE23B2D74600099991 /* ViewController.h */,
+				234808DC23B2D74600099991 /* ViewController.m */,
+			);
+			name = Log;
+			path = AwesomeProject/Log;
+			sourceTree = "<group>";
+		};
+		234808D423B2D74600099991 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				234808D623B2D74600099991 /* NSArray+Log.h */,
+				234808D823B2D74600099991 /* NSArray+Log.m */,
+				234808D723B2D74600099991 /* NSDictionary+Log.h */,
+				234808D523B2D74600099991 /* NSDictionary+Log.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		234808D923B2D74600099991 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				234808DA23B2D74600099991 /* fishhook.c */,
+				234808DB23B2D74600099991 /* fishhook.h */,
+			);
+			path = fishhook;
 			sourceTree = "<group>";
 		};
 		2364857C22FFCA8B003DEF0D /* Recovered References */ = {
@@ -1117,6 +1178,8 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				2348090623B2D74600099991 /* LogCell.xib in Resources */,
+				2348090E23B2D75300099991 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1181,7 +1244,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2348090A23B2D74600099991 /* ViewController.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				2348090923B2D74600099991 /* fishhook.c in Sources */,
+				2348090823B2D74600099991 /* NSArray+Log.m in Sources */,
+				2348091123B2D96100099991 /* YSLogModule.m in Sources */,
+				2348090723B2D74600099991 /* NSDictionary+Log.m in Sources */,
+				2348090B23B2D74600099991 /* LogCell.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1226,6 +1295,14 @@
 			);
 			name = LaunchScreen.xib;
 			path = AwesomeProject;
+			sourceTree = "<group>";
+		};
+		2348090C23B2D75300099991 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2348090D23B2D75300099991 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
